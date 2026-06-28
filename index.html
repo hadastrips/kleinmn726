@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
-            --primary-turquoise: #0097A7; /* טורקיז עמוק לכותרות */
-            --primary-lightblue: #03A9F4; /* תכלת לאייקונים ודגשים */
-            --primary-green: #43A047; /* נגיעות ירוק */
-            --soft-blue: #E1F5FE; /* תכלת בהיר לרקעים */
-            --soft-turquoise: #E0F7FA; 
+            --primary-turquoise: #00838F; /* טורקיז עמוק ואלגנטי */
+            --primary-green: #388E3C; /* ירוק יער עדין */
+            --primary-brown: #8D6E63; /* חום אדמתי */
+            --soft-turquoise: #E0F2F1; 
+            --soft-brown: #EFEBE9;
             --text-main: #333333;
         }
 
         body {
             font-family: 'Assistant', sans-serif;
-            background-color: #f4f9f9;
+            background-color: #f4f7f6;
             color: var(--text-main);
             margin: 0;
             padding: 0;
@@ -60,7 +60,7 @@
         }
 
         .sub-title {
-            color: var(--primary-lightblue);
+            color: var(--primary-brown);
             margin: 5px 0 20px 0;
             font-size: 18px;
             font-weight: 600;
@@ -102,8 +102,8 @@
         }
 
         details[open] {
-            border-color: var(--primary-lightblue);
-            box-shadow: 0 2px 8px rgba(3, 169, 244, 0.1);
+            border-color: var(--primary-brown);
+            box-shadow: 0 2px 8px rgba(141, 110, 99, 0.1);
         }
 
         summary {
@@ -124,7 +124,7 @@
             content: '\f107'; 
             font-family: 'Font Awesome 6 Free';
             font-weight: 900;
-            color: var(--primary-lightblue);
+            color: var(--primary-brown);
         }
         details[open] summary::after { content: '\f106'; }
 
@@ -145,7 +145,7 @@
         .info-row:last-child { margin-bottom: 0; }
 
         .info-row i {
-            color: var(--primary-lightblue);
+            color: var(--primary-brown);
             width: 20px;
             text-align: center;
             margin-top: 4px;
@@ -159,8 +159,8 @@
 
         /* עיצוב כרטיסיית אמצע טיול מובלטת */
         .highlight-card {
-            background-color: var(--soft-blue);
-            border-top: 6px solid var(--primary-lightblue);
+            background-color: var(--soft-brown);
+            border-top: 6px solid var(--primary-brown);
             text-align: center;
         }
 
@@ -208,7 +208,7 @@
 
     <!-- 6/7 -->
     <div class="day-card">
-        <div class="day-header"><h2 class="day-title">6/7 | נחיתה והתארגנות</h2></div>
+        <div class="day-header"><h2 class="day-title" style="color: var(--primary-turquoise);">6/7 | נחיתה והתארגנות</h2></div>
 
         <details>
             <summary>18:30 | נחיתה במינכן</summary>
@@ -236,11 +236,11 @@
     </div>
 
     <!-- 7/7 -->
-    <div class="day-card" style="border-top-color: var(--primary-lightblue);">
-        <div class="day-header"><h2 class="day-title">7/7 | בוקר במינכן</h2></div>
+    <div class="day-card" style="border-top-color: var(--primary-green);">
+        <div class="day-header"><h2 class="day-title" style="color: var(--primary-green);">7/7 | בוקר במינכן</h2></div>
 
         <details>
-            <summary>תפילה במינכן</summary>
+            <summary style="color: var(--primary-green);">תפילה במינכן</summary>
             <div class="details-content">
                 <div class="info-row"><i class="fa-solid fa-synagogue"></i><div><strong>בית הכנסת אוהל יעקב:</strong> שחרית בשעה 7:30.</div></div>
                 <div class="info-row"><i class="fa-solid fa-location-dot"></i><div><a href="https://maps.app.goo.gl/69MSvpjEF75WKS5c7" target="_blank">ניווט לביכ"נ אוהל יעקב</a></div></div>
@@ -251,7 +251,7 @@
         </details>
 
         <details>
-            <summary>הצטיידות: סופר כשר</summary>
+            <summary style="color: var(--primary-green);">הצטיידות: סופר כשר</summary>
             <div class="details-content">
                 <div class="info-row"><i class="fa-solid fa-cart-shopping"></i><div>קניות והצטיידות לקראת הנסיעה לאוסטריה (פתוח מ-9 בבוקר).</div></div>
                 <div class="info-row"><i class="fa-solid fa-location-dot"></i><div><a href="https://maps.app.goo.gl/nZVKw3aRVYDqUsLZ6" target="_blank">ניווט לסופר הכשר</a></div></div>
@@ -267,11 +267,11 @@
     </div>
 
     <!-- 14/7 -->
-    <div class="day-card" style="border-top-color: var(--primary-green);">
-        <div class="day-header"><h2 class="day-title">14/7 | חזרה למינכן</h2></div>
+    <div class="day-card" style="border-top-color: var(--primary-brown);">
+        <div class="day-header"><h2 class="day-title" style="color: var(--primary-brown);">14/7 | חזרה למינכן</h2></div>
 
         <details>
-            <summary>נסיעה ולינה ליד השדה</summary>
+            <summary style="color: var(--primary-brown);">נסיעה ולינה ליד השדה</summary>
             <div class="details-content">
                 <div class="info-row"><i class="fa-solid fa-car-side"></i><div>חזרה לכיוון שדה התעופה מינכן.</div></div>
                 <div class="info-row"><i class="fa-solid fa-location-dot"></i><div><a href="https://maps.app.goo.gl/kHtM72hxq3sAfAdcA" target="_blank">ניווט לשדה"ת מינכן</a></div></div>
@@ -283,11 +283,11 @@
     </div>
 
     <!-- 15/7 -->
-    <div class="day-card">
-        <div class="day-header"><h2 class="day-title">15/7 | חוזרים הביתה</h2></div>
+    <div class="day-card" style="border-top-color: var(--primary-turquoise);">
+        <div class="day-header"><h2 class="day-title" style="color: var(--primary-turquoise);">15/7 | חוזרים הביתה</h2></div>
 
         <details>
-            <summary>10:30 | המראה לישראל</summary>
+            <summary style="color: var(--primary-turquoise);">10:30 | המראה לישראל</summary>
             <div class="details-content">
                 <div class="info-row"><i class="fa-solid fa-plane-departure"></i><div>טיסה חזרה לישראל - הביתה בשמחה!</div></div>
             </div>
